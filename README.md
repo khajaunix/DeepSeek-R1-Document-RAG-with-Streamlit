@@ -29,10 +29,13 @@ RecursiveCharacterTextSplitter for text segmentation
 **Set Up DeepSeek-R1**: Ensure you have access to the DeepSeek-R1 model.
 **Set Up Streamlit:** Install Streamlit using:
 
-## Dataset details
-**Document Processing:** Uploaded PDFs are processed using the UnstructuredPDFLoader to extract textual content. The RecursiveCharacterTextSplitter segments this text into manageable chunks.
-**Embedding Creation:** Semantic embeddings are generated for each text chunk using Hugging Face Embeddings, capturing the contextual meaning of the information.
-**Vector Storage:** ChromaDB serves as the vector database, storing the embeddings and enabling rapid similarity searches.
+# Dataset details
+## Document Processing:
+Uploaded PDFs are processed using the UnstructuredPDFLoader to extract textual content. The RecursiveCharacterTextSplitter segments this text into manageable chunks.
+## Embedding Creation: 
+Semantic embeddings are generated for each text chunk using Hugging Face Embeddings, capturing the contextual meaning of the information.
+## Vector Storage: 
+ChromaDB serves as the vector database, storing the embeddings and enabling rapid similarity searches.
 
 # implementation steps
 ## Document Processing:
