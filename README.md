@@ -32,7 +32,7 @@ This project demonstrates a robust RAG (Retrieve, Augment, Generate) system desi
 - RecursiveCharacterTextSplitter for text segmentation
 
 ## Setup and installation
-Install Python: 
+1. Install Python: 
 Ensure you have Python 3.8 or higher installed.<br>
 
 
