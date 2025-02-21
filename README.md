@@ -4,8 +4,8 @@ README.md
 This repository demonstrates the use of DeepSeek-R1 Document RAG with Streamlit
 
 ## Table of contents
-1.[Overview] (#overview)
-2.[Prerequisites] (#prerequisite)
+1.[Overview](#overview)
+2.[Prerequisites](#prerequisite)
 
 
 
