@@ -20,8 +20,6 @@ This project demonstrates a robust RAG (Retrieve, Augment, Generate) system desi
 - Access to ChromaDB
 - Access to Hugging Face Embeddings
 - Streamlit for the user interface
-- UnstructuredPDFLoader for document processing
-- RecursiveCharacterTextSplitter for text segmentation
 
 ## Setup and installation
 **1. Install Python:** 
@@ -30,14 +28,6 @@ Ensure you have Python 3.8 or higher installed.<br>
 Install the required libraries using requirement.txt.<br>
 **3. Set Up DeepSeek-R1:** 
 Ensure you have access to the DeepSeek-R1 model.<br>
-
-## Dataset details
-**1. Document Processing:**
-Uploaded PDFs are processed using the UnstructuredPDFLoader to extract textual content. The RecursiveCharacterTextSplitter segments this text into manageable chunks.<br>
-**2. Embedding Creation:**
-Semantic embeddings are generated for each text chunk using Hugging Face Embeddings, capturing the contextual meaning of the information.<br>
-**3. Vector Storage:** 
-ChromaDB serves as the vector database, storing the embeddings and enabling rapid similarity searches.
 
 ## implementation steps
 **1. Document Processing:**
