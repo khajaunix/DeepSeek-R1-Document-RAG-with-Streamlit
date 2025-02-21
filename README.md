@@ -36,7 +36,7 @@ Ensure you have access to the DeepSeek-R1 model.
 Install Streamlit
 
 ## Dataset details
-1. Document Processing:
+**1. Document Processing:**
 Uploaded PDFs are processed using the UnstructuredPDFLoader to extract textual content. The RecursiveCharacterTextSplitter segments this text into manageable chunks.
 2. Embedding Creation: 
 Semantic embeddings are generated for each text chunk using Hugging Face Embeddings, capturing the contextual meaning of the information.
