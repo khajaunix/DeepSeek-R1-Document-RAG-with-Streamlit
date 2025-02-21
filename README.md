@@ -12,6 +12,8 @@ This repository demonstrates the use of DeepSeek-R1 Document RAG with Streamlit
 
 ## overview
 
+## prerequisites
+
 ## setup and installation
 
 ## Dataset details
