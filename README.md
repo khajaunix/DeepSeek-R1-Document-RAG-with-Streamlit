@@ -16,14 +16,12 @@ This project demonstrates a robust RAG (Retrieve, Augment, Generate) system desi
 # prerequisites
 
 - Python 3.8 or higher
-
-Python 3.8 or higher
-Access to DeepSeek-R1 large language model
-Access to ChromaDB
-Access to Hugging Face Embeddings
-Streamlit for the user interface
-UnstructuredPDFLoader for document processing
-RecursiveCharacterTextSplitter for text segmentation
+- Access to DeepSeek-R1 large language model
+- Access to ChromaDB
+- Access to Hugging Face Embeddings
+- Streamlit for the user interface
+- UnstructuredPDFLoader for document processing
+- RecursiveCharacterTextSplitter for text segmentation
 
 # Setup and installation
 ## Install Python: 
