@@ -1,3 +1,19 @@
+README.md
+
+# Proj1
+This repository demonstrates the use of DeepSeek-R1 Document RAG with Streamlit
+
+## Table of contents
+1.[Overview] (#overview)
+2.[Pre-requisites] (#prerequisite)
+
+
+
+
+
+
+
+
 # DeepSeek-R1 Document RAG with Streamlit
 
 This project demonstrates a robust RAG system designed for question answering on PDF documents.  It combines the capabilities of the DeepSeek-R1 large language model with the efficiency of ChromaDB for information retrieval.  The workflow comprises the following steps:
