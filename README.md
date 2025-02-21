@@ -33,7 +33,7 @@ Follow the instructions to set up ChromaDB.
 4. Set Up DeepSeek-R1: 
 Ensure you have access to the DeepSeek-R1 model.
 5. Set Up Streamlit: 
-Install Streamlit using:
+Install Streamlit
 
 # Dataset details
 ## Document Processing:
