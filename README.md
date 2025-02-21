@@ -25,7 +25,7 @@ This project demonstrates a robust RAG (Retrieve, Augment, Generate) system desi
 
 ## Setup and installation
 1. Install Python: 
-Ensure you have Python 3.8 or higher installed.<br>
+Ensure you have Python 3.8 or higher installed.
 2. Install Dependencies:
 Install the required Python packages using:
 3. Set Up ChromaDB:
