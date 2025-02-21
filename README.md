@@ -27,7 +27,7 @@ This project demonstrates a robust RAG (Retrieve, Augment, Generate) system desi
 1. Install Python: 
 Ensure you have Python 3.8 or higher installed.
 2. Install Dependencies:
-Install the required Python packages using:
+Install the required Python packages.
 3. Set Up ChromaDB:
 Follow the instructions to set up ChromaDB.
 4. Set Up DeepSeek-R1: 
@@ -35,12 +35,12 @@ Ensure you have access to the DeepSeek-R1 model.
 5. Set Up Streamlit: 
 Install Streamlit
 
-# Dataset details
-## Document Processing:
+## Dataset details
+1. Document Processing:
 Uploaded PDFs are processed using the UnstructuredPDFLoader to extract textual content. The RecursiveCharacterTextSplitter segments this text into manageable chunks.
-## Embedding Creation: 
+2. Embedding Creation: 
 Semantic embeddings are generated for each text chunk using Hugging Face Embeddings, capturing the contextual meaning of the information.
-## Vector Storage: 
+3. Vector Storage: 
 ChromaDB serves as the vector database, storing the embeddings and enabling rapid similarity searches.
 
 # implementation steps
