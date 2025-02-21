@@ -14,6 +14,9 @@ This repository demonstrates the use of DeepSeek-R1 Document RAG with Streamlit
 This project demonstrates a robust RAG (Retrieve, Augment, Generate) system designed for question answering on PDF documents. It combines the capabilities of the DeepSeek-R1 large language model with the efficiency of ChromaDB for information retrieval. The system processes uploaded PDF documents, retrieves relevant information based on user queries, and generates comprehensive answers.
 
 # prerequisites
+
+- Python 3.8 or higher
+
 Python 3.8 or higher
 Access to DeepSeek-R1 large language model
 Access to ChromaDB
