@@ -37,10 +37,10 @@ Install Streamlit
 
 ## Dataset details
 **1. Document Processing:**
-Uploaded PDFs are processed using the UnstructuredPDFLoader to extract textual content. The RecursiveCharacterTextSplitter segments this text into manageable chunks.
-2. Embedding Creation: 
-Semantic embeddings are generated for each text chunk using Hugging Face Embeddings, capturing the contextual meaning of the information.
-3. Vector Storage: 
+Uploaded PDFs are processed using the UnstructuredPDFLoader to extract textual content. The RecursiveCharacterTextSplitter segments this text into manageable chunks.<br>
+**2. Embedding Creation:**
+Semantic embeddings are generated for each text chunk using Hugging Face Embeddings, capturing the contextual meaning of the information.<br>
+**3. Vector Storage:** 
 ChromaDB serves as the vector database, storing the embeddings and enabling rapid similarity searches.
 
 # implementation steps
