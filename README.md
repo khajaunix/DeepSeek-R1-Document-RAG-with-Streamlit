@@ -43,21 +43,21 @@ Semantic embeddings are generated for each text chunk using Hugging Face Embeddi
 **3. Vector Storage:** 
 ChromaDB serves as the vector database, storing the embeddings and enabling rapid similarity searches.
 
-# implementation steps
-## Document Processing:
+## implementation steps
+**1. Document Processing:**
 Use UnstructuredPDFLoader to extract text from uploaded PDFs.
-Segment the extracted text into manageable chunks using RecursiveCharacterTextSplitter.
-## Embedding Creation:
-Generate semantic embeddings for each text chunk using Hugging Face Embeddings.
-## Vector Storage:
-Store the embeddings in ChromaDB for efficient similarity searches.
-## Query Processing and Retrieval:
+Segment the extracted text into manageable chunks using RecursiveCharacterTextSplitter.<br>
+**2. Embedding Creation:**
+Generate semantic embeddings for each text chunk using Hugging Face Embeddings.<br>
+**3. Vector Storage:**
+Store the embeddings in ChromaDB for efficient similarity searches.<br>
+**4. Query Processing and Retrieval:**
 Embed user queries using the same embedding model.
-Query ChromaDB to retrieve the most relevant document chunks based on the user query.
-## Answer Synthesis:
+Query ChromaDB to retrieve the most relevant document chunks based on the user query.<br>
+**5. Answer Synthesis:**
 Input the retrieved chunks and the user query to the DeepSeek-R1 model.
-Generate a comprehensive answer using the model.
-## User Interaction:
+Generate a comprehensive answer using the model.<br>
+**6. User Interaction:**
 Implement a Streamlit-based interface for seamless document upload and query submission.
 Enhance user experience by providing a user-friendly interface for interacting with the system.
 
