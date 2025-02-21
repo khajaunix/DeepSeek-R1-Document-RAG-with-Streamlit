@@ -27,13 +27,9 @@ This project demonstrates a robust RAG (Retrieve, Augment, Generate) system desi
 **1. Install Python:** 
 Ensure you have Python 3.8 or higher installed.<br>
 **2. Install Dependencies:**
-Install the required Python packages.<br>
-**3. Set Up ChromaDB:**
-Follow the instructions to set up ChromaDB.<br>
-**4. Set Up DeepSeek-R1:** 
+Install the required libraries using requirement.txt.<br>
+**3. Set Up DeepSeek-R1:** 
 Ensure you have access to the DeepSeek-R1 model.<br>
-**5. Set Up Streamlit:** 
-Install Streamlit
 
 ## Dataset details
 **1. Document Processing:**
