@@ -1,6 +1,6 @@
 README.md
 
-# Proj1
+# Proj - 1
 This repository demonstrates the use of DeepSeek-R1 Document RAG with Streamlit
 
 ## Table of contents
