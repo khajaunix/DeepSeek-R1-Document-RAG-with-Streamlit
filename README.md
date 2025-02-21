@@ -5,9 +5,17 @@ This repository demonstrates the use of DeepSeek-R1 Document RAG with Streamlit
 
 ## Table of contents
 1.[Overview](#overview)
+
+
 2.[Prerequisites](#prerequisite)
+
+
 3.[setup and installation](#setup_and_installation)
+
+
 4.[Dataset details](#dataset_details)
+
+
 5.[implementation steps](#implementation_steps)
 
 ## overview
@@ -24,23 +32,23 @@ This project demonstrates a robust RAG (Retrieve, Augment, Generate) system desi
 - RecursiveCharacterTextSplitter for text segmentation
 
 ## Setup and installation
-1.Install Python: 
-Ensure you have Python 3.8 or higher installed.
+Install Python: 
+Ensure you have Python 3.8 or higher installed.<br>
 
 
-2.Install Dependencies:
+2. Install Dependencies:
 Install the required Python packages using:
 
 
-3.Set Up ChromaDB:
+3. Set Up ChromaDB:
 Follow the instructions to set up ChromaDB.
 
 
-4.Set Up DeepSeek-R1: 
+4. Set Up DeepSeek-R1: 
 Ensure you have access to the DeepSeek-R1 model.
 
 
-5.Set Up Streamlit: 
+5. Set Up Streamlit: 
 Install Streamlit using:
 
 # Dataset details
